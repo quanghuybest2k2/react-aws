@@ -1,2 +1,9 @@
-# react-aws
-reactjs aws
+# React + Vite
+
+```bash
+npm install
+```
+
+```bash
+npm start
+```
