@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://3.27.216.224/users")
+      .get("https://3.27.216.224/users")
       .then((response) => {
         setUsers(response.data);
         setLoading(false);
