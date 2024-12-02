@@ -28,6 +28,8 @@ function App() {
             <span className="visually-hidden">Loading...</span>
           </div>
         </div>
+      ) : users.length === 0 ? (
+        <div className="text-center">Hiện tại chưa có dữ liệu</div>
       ) : (
         <table className="table table-striped table-responsive">
           <thead className="table-dark">
